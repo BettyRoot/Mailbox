@@ -23,7 +23,7 @@
     },
     components: {
       appSidebar: Sidebar,
-      appContent: Content,
+      appContent: Content
     },
     created() {
       eventBus.$on('sentMessage', (data) => {
