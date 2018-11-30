@@ -13,7 +13,7 @@
 
 <script>
   import {eventBus} from "./main";
-  import Messages from './messages'
+  import Messages from './Messages'
 
   export default {
     name: "inbox",

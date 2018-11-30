@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import Messages from './Messages.vue';
+  import Messages from './Messages';
   export default {
     props: {
       data: {

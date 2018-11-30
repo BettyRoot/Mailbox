@@ -5,11 +5,12 @@
     "author": "BettyRoot <vburzynska@outlook.com>",
     "license": "MIT",
     "private": true,
+    "wst": "/dist/",
+    "homepage": "https://github.com/bettyroot/Mailbox",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
         "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
-    },
+        "deploy": "node ./node_modules/vue-gh-pages/index.js"    },
     "dependencies": {
         "bootstrap": "^4.1.3",
         "font-awesome": "^4.7.0",
@@ -18,10 +19,10 @@
         "vue": "^2.5.11"
     },
     "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
     "devDependencies": {
         "babel-core": "^6.26.0",
         "babel-loader": "^7.1.2",
@@ -31,6 +32,7 @@
         "css-loader": "^0.28.7",
         "file-loader": "^1.1.4",
         "push-dir": "^0.4.1",
+        "vue-gh-pages": "^1.19.0",
         "vue-loader": "^13.0.5",
         "vue-template-compiler": "^2.4.4",
         "webpack": "^3.6.0",

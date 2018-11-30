@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import Messages from './messages'
+  import Messages from './Messages';
   export default {
     name: "send",
     props: {

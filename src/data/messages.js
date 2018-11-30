@@ -23,7 +23,7 @@ export default [
   {
     subject: 'Login from new device',
     content: `
-            <p>Hello Bo,</p>
+            <p>Hello</p>
             <p>We noticed that your account was used to sign in from a new device, and we're pretty worried about it.</p>
             <p>It looks like the login came from <i class="fa fa-globe" aria-hidden="true"></i> <strong>Moscow, Russia</strong>, so unless you are on vacation, you're probably in big trouble.</p>
             <p>We just thought we'd let you know.</p>
